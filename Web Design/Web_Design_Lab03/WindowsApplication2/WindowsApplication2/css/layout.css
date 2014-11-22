@@ -1,0 +1,30 @@
+﻿body {
+
+    margin: auto;
+
+}
+
+.image01
+{
+
+	margin-left: 200px;
+    margin-right: 200px;
+
+}
+
+
+
+
+.content
+{
+
+		height: 400px;
+        width: 400px;
+
+	background-color: lightgrey;	
+    display: block;
+	margin-left: 100px;
+    margin-right: 100px;
+
+
+}

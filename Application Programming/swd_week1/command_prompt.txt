@@ -1,0 +1,147 @@
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+H:\>dir
+ Volume in drive H is Local Disk
+ Volume Serial Number is 6ED6-31FB
+
+ Directory of H:\
+
+24/09/2014  21:35    <DIR>          .
+24/09/2014  21:35    <DIR>          ..
+24/09/2014  20:03    <DIR>          Databases
+24/09/2014  21:35    <DIR>          swd
+               0 File(s)              0 bytes
+               4 Dir(s)  2,042,154,905,600 bytes free
+
+H:\>cd swd
+
+H:\swd>dir
+ Volume in drive H is Local Disk
+ Volume Serial Number is 6ED6-31FB
+
+ Directory of H:\swd
+
+24/09/2014  21:35    <DIR>          .
+24/09/2014  21:35    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  2,042,154,700,800 bytes free
+
+H:\swd>javac FirstProgram.java
+'javac' is not recognized as an internal or external command,
+operable program or batch file.
+
+H:\swd>javac FirstProgram.java
+'javac' is not recognized as an internal or external command,
+operable program or batch file.
+
+H:\swd>"C:\Program Files\Java\jdk1.8.0_11\bin\javac" FirstProgram.java
+javac: file not found: FirstProgram.java
+Usage: javac <options> <source files>
+use -help for a list of possible options
+
+H:\swd>dir
+ Volume in drive H is Local Disk
+ Volume Serial Number is 6ED6-31FB
+
+ Directory of H:\swd
+
+24/09/2014  21:35    <DIR>          .
+24/09/2014  21:35    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  2,041,922,490,368 bytes free
+
+H:\swd>dir
+ Volume in drive H is Local Disk
+ Volume Serial Number is 6ED6-31FB
+
+ Directory of H:\swd
+
+26/09/2014  19:15    <DIR>          .
+26/09/2014  19:15    <DIR>          ..
+26/09/2014  19:15               283 FirstProgram.java
+26/09/2014  19:14         1,083,608 Lab1_Introduction_to_programming.pdf
+               2 File(s)      1,083,891 bytes
+               2 Dir(s)  2,041,761,746,944 bytes free
+
+H:\swd>"C:\Program Files\Java\jdk1.8.0_11\bin\javac" FirstProgram.java
+
+H:\swd>dir
+ Volume in drive H is Local Disk
+ Volume Serial Number is 6ED6-31FB
+
+ Directory of H:\swd
+
+26/09/2014  19:16    <DIR>          .
+26/09/2014  19:16    <DIR>          ..
+26/09/2014  19:16               430 FirstProgram.class
+26/09/2014  19:15               283 FirstProgram.java
+26/09/2014  19:14         1,083,608 Lab1_Introduction_to_programming.pdf
+               3 File(s)      1,084,321 bytes
+               2 Dir(s)  2,041,759,006,720 bytes free
+
+H:\swd>"C:\Program Files\Java\jdk1.8.0_11\bin\java" FirstProgram
+Hello World!
+
+H:\swd>"C:\Program Files\Java\jdk1.8.0_11\bin\javac" FirstProgram.java
+
+H:\swd>"C:\Program Files\Java\jdk1.8.0_11\bin\java" FirstProgram
+Hello Garrett!
+
+H:\swd>"C:\Program Files\Java\jdk1.8.0_11\bin\javac" FirstProgram.java
+FirstProgram.java:10: error: ';' expected
+        System.out.println("Hello Garrett!")
+                                            ^
+1 error
+
+H:\swd>"C:\Program Files\Java\jdk1.8.0_11\bin\javac" FirstProgram.java
+FirstProgram.java:10: error: ';' expected
+        System.out.println("Hello Garrett!")
+                                            ^
+1 error
+
+H:\swd>"C:\Program Files\Java\jdk1.8.0_11\bin\javac" FirstProgram.java
+FirstProgram.java:10: error: ';' expected
+        System.out.println("Hello Garrett!")
+                                            ^
+1 error
+
+H:\swd>"C:\Program Files\Java\jdk1.8.0_11\bin\javac" SecondProgram.java
+SecondProgram.java:6: error: class FirstProgram is public, should be declared in
+ a file named FirstProgram.java
+public class FirstProgram {
+       ^
+1 error
+
+H:\swd>"C:\Program Files\Java\jdk1.8.0_11\bin\javac" SecondProgram.java
+javac: file not found: SecondProgram.java
+Usage: javac <options> <source files>
+use -help for a list of possible options
+
+H:\swd>"C:\Program Files\Java\jdk1.8.0_11\bin\javac" FirstProgram.java
+FirstProgram.java:10: error: ';' expected
+        System.out.println("Hello Garrett!")
+                                            ^
+1 error
+
+H:\swd>"C:\Program Files\Java\jdk1.8.0_11\bin\javac" FirstProgram.java
+
+H:\swd>"C:\Program Files\Java\jdk1.8.0_11\bin\java" FirstProgram
+Hello Garrett!
+
+H:\swd>"C:\Program Files\Java\jdk1.8.0_11\bin\javac" FirstProgram.java
+
+H:\swd>"C:\Program Files\Java\jdk1.8.0_11\bin\java" FirstProgram
+Hello Garrett!
+Hello Garrett!
+
+H:\swd>"C:\Program Files\Java\jdk1.8.0_11\bin\java" FirstProgram
+Hello Garrett!
+Hello Garrett!
+
+H:\swd>"C:\Program Files\Java\jdk1.8.0_11\bin\javac" FirstProgram.java
+
+H:\swd>"C:\Program Files\Java\jdk1.8.0_11\bin\java" FirstProgram
+Hello People!
+
+H:\swd>
